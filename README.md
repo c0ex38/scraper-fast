@@ -43,7 +43,7 @@
 1️⃣ **Projeyi klonlayın**
 
 ```bash
-git clone https://github.com/kullanici-adi/firecrawl-fastapi-wrapper.git
+git clone https://github.com/c0ex38/firecrawl-fastapi-wrapper.git
 cd firecrawl-fastapi-wrapper
 ```
 
@@ -115,18 +115,6 @@ curl "http://localhost:8000/scrape?url=https://example.com"
 curl "http://localhost:8000/crawl?url=https://example.com&limit=10"
 ```
 
----
-
-## 🎨 Ekran Görüntüleri
-
-### Ana Sayfa
-Modern gradient arka plan, animasyonlu kartlar ve kullanıcı dostu form.
-
-### Sonuç Sayfası
-İstatistikler, tab geçişleri ve kopyalama butonları ile zengin sonuç görünümü.
-
----
-
 ## 🛠️ Teknolojiler
 
 - **[FastAPI](https://fastapi.tiangolo.com/)** - Modern, hızlı Python web framework
@@ -159,42 +147,15 @@ API_KEY="fc-YOUR_API_KEY_HERE"  # Firecrawl API anahtarınız
 
 ---
 
-## 🤝 Katkıda Bulunma
-
-Katkılarınızı bekliyoruz! Pull request göndermekten çekinmeyin.
-
-1. Bu repository'yi fork edin
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request açın
-
----
-
 ## 📝 Lisans
 
 Bu proje MIT lisansı altında lisanslanmıştır.
 
 ---
 
-## 🔐 Güvenlik
-
-- ⚠️ **API anahtarınızı asla paylaşmayın**
-- 🔒 `.env` dosyası git'e eklenmez
-- 🛡️ Ortam değişkenleri güvenli şekilde yönetilir
-
----
-
-## 📞 İletişim
-
-Sorularınız veya önerileriniz için issue açabilirsiniz.
-
----
 
 <div align="center">
 
 **[⬆ Başa Dön](#-firecrawl-fastapi-wrapper)**
-
-Made with ❤️ using FastAPI & Firecrawl
 
 </div>
